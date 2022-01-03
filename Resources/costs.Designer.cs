@@ -83,6 +83,16 @@ namespace RenderFixMaybe.Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] blood_cost_10 {
+            get {
+                object obj = ResourceManager.GetObject("blood_cost_10", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] blood_cost_2 {
             get {
                 object obj = ResourceManager.GetObject("blood_cost_2", resourceCulture);
@@ -106,6 +116,56 @@ namespace RenderFixMaybe.Resources {
         internal static byte[] blood_cost_4 {
             get {
                 object obj = ResourceManager.GetObject("blood_cost_4", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] blood_cost_5 {
+            get {
+                object obj = ResourceManager.GetObject("blood_cost_5", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] blood_cost_6 {
+            get {
+                object obj = ResourceManager.GetObject("blood_cost_6", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] blood_cost_7 {
+            get {
+                object obj = ResourceManager.GetObject("blood_cost_7", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] blood_cost_8 {
+            get {
+                object obj = ResourceManager.GetObject("blood_cost_8", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] blood_cost_9 {
+            get {
+                object obj = ResourceManager.GetObject("blood_cost_9", resourceCulture);
                 return ((byte[])(obj));
             }
         }

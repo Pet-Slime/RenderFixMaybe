@@ -124,6 +124,9 @@
   <data name="blood_cost_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Artwork\blood_cost_1.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="blood_cost_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Artwork\blood_cost_10.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="blood_cost_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Artwork\blood_cost_2.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -132,6 +135,21 @@
   </data>
   <data name="blood_cost_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Artwork\blood_cost_4.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blood_cost_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Artwork\blood_cost_5.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blood_cost_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Artwork\blood_cost_6.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blood_cost_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Artwork\blood_cost_7.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blood_cost_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Artwork\blood_cost_8.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blood_cost_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Artwork\blood_cost_9.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="bone_cost_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Artwork\bone_cost_0.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

@@ -179,6 +179,24 @@ namespace renderFixMaybe
 						case 4:
 							texBloodCost = LoadTextureFromResource(Artwork.blood_cost_4);
 							break;
+						case 5:
+							texBloodCost = LoadTextureFromResource(Artwork.blood_cost_5);
+							break;
+						case 6:
+							texBloodCost = LoadTextureFromResource(Artwork.blood_cost_6);
+							break;
+						case 7:
+							texBloodCost = LoadTextureFromResource(Artwork.blood_cost_7);
+							break;
+						case 8:
+							texBloodCost = LoadTextureFromResource(Artwork.blood_cost_8);
+							break;
+						case 9:
+							texBloodCost = LoadTextureFromResource(Artwork.blood_cost_9);
+							break;
+						case 10:
+							texBloodCost = LoadTextureFromResource(Artwork.blood_cost_10);
+							break;
 					}
 	
 					//Switch statement to set the energy texture to the right cost
