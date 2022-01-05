@@ -142,8 +142,8 @@ namespace renderFixMaybe
 		[HarmonyPatch(typeof(CardDisplayer), nameof(CardDisplayer.GetCostSpriteForCard))]
 		public class CostDisplayFixMaybe
 		{
-			[HarmonyPostfix]
-			public static void Postfix(ref Sprite __result, ref CardInfo card)
+			[HarmonyPrefix]
+			public static bool Prefix(ref Sprite __result, ref CardInfo card)
 			{
 
 				//Make sure we are in Leshy's Cabin
@@ -344,7 +344,10 @@ namespace renderFixMaybe
 	
 					/// Set the results as the new sprite
 					__result = finalSprite;
+
+					return false;
 				}
+				return true;
 			}
 		}
 	}
