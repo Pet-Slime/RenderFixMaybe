@@ -17,14 +17,6 @@ namespace RenderFixMaybe
 		public static Vector2 vector = new Vector2(Xposition, Yposition);
 
 
-		public static Sprite LoadSpriteFromResource(byte[] resourceFile)
-		{
-			var texture = new Texture2D(2, 2);
-			texture.LoadImage(resourceFile);
-			texture.filterMode = FilterMode.Point;
-			var sprite = UnityEngine.Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), vector, pixelPerUnity);
-			return sprite;
-		}
 
 		public static Sprite MakeSpriteFromTexture2D(Texture2D texture)
 		{

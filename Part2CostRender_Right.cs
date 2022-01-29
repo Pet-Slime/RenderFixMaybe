@@ -73,11 +73,7 @@ namespace RenderFixMaybe
 
 		public static Texture2D GetFinalTexture(int cardCost, byte[] resource)
 		{
-			List<Vector2Int> pixelCost = new List<Vector2Int>
-			{
-				new Vector2Int(23, 0),
-				new Vector2Int(3, 0)
-			};
+			var pixelCost = new List<Vector2Int>();
 			Texture2D textCost = LoadTextureFromResource(Art.pixel_blank);
 			List<Texture2D> list = new List<Texture2D>();
 			Texture2D artCost = LoadTextureFromResource(resource);
@@ -88,63 +84,138 @@ namespace RenderFixMaybe
 			{
 				case 1:
 					textCost = LoadTextureFromResource(Art.pixel_mox_empty);
-					list.Add(textCost);
+					list.Add(textCost); 
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(23, 0),
+						new Vector2Int(3, 0)
+					};
 					break;
 				case 2:
-					textCost = LoadTextureFromResource(Art.pixel_2);
+					textCost = LoadTextureFromResource(Art.pixel_L_2);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(9, 0),
+						new Vector2Int(16, 0)
+					};
 					break;
 				case 3:
-					textCost = LoadTextureFromResource(Art.pixel_3);
+					textCost = LoadTextureFromResource(Art.pixel_L_3);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(9, 0),
+						new Vector2Int(16, 0)
+					};
 					break;
 				case 4:
-					textCost = LoadTextureFromResource(Art.pixel_4);
+					textCost = LoadTextureFromResource(Art.pixel_L_4);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(9, 0),
+						new Vector2Int(16, 0)
+					};
 					break;
 				case 5:
-					textCost = LoadTextureFromResource(Art.pixel_5);
+					textCost = LoadTextureFromResource(Art.pixel_L_5);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(9, 0),
+						new Vector2Int(16, 0)
+					};
 					break;
 				case 6:
-					textCost = LoadTextureFromResource(Art.pixel_6);
+					textCost = LoadTextureFromResource(Art.pixel_L_6);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(9, 0),
+						new Vector2Int(16, 0)
+					};
 					break;
 				case 7:
-					textCost = LoadTextureFromResource(Art.pixel_7);
+					textCost = LoadTextureFromResource(Art.pixel_L_7);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(9, 0),
+						new Vector2Int(16, 0)
+					};
 					break;
 				case 8:
-					textCost = LoadTextureFromResource(Art.pixel_8);
+					textCost = LoadTextureFromResource(Art.pixel_L_8);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(9, 0),
+						new Vector2Int(16, 0)
+					};
 					break;
 				case 9:
-					textCost = LoadTextureFromResource(Art.pixel_9);
+					textCost = LoadTextureFromResource(Art.pixel_L_9);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(9, 0),
+						new Vector2Int(16, 0)
+					};
 					break;
 				case 10:
-					textCost = LoadTextureFromResource(Art.pixel_10);
+					textCost = LoadTextureFromResource(Art.pixel_L_10);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(3, 0),
+						new Vector2Int(10, 0)
+					};
 					break;
 				case 11:
-					textCost = LoadTextureFromResource(Art.pixel_11);
+					textCost = LoadTextureFromResource(Art.pixel_L_11);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(3, 0),
+						new Vector2Int(10, 0)
+					};
 					break;
 				case 12:
-					textCost = LoadTextureFromResource(Art.pixel_12);
+					textCost = LoadTextureFromResource(Art.pixel_L_12);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(3, 0),
+						new Vector2Int(10, 0)
+					};
 					break;
 				case 13:
-					textCost = LoadTextureFromResource(Art.pixel_13);
+					textCost = LoadTextureFromResource(Art.pixel_L_13);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(3, 0),
+						new Vector2Int(10, 0)
+					};
 					break;
 				case 14:
-					textCost = LoadTextureFromResource(Art.pixel_14);
+					textCost = LoadTextureFromResource(Art.pixel_L_14);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(3, 0),
+						new Vector2Int(10, 0)
+					};
 					break;
 				case 15:
-					textCost = LoadTextureFromResource(Art.pixel_15);
+					textCost = LoadTextureFromResource(Art.pixel_L_15);
 					list.Add(textCost);
+					pixelCost = new List<Vector2Int>
+					{
+						new Vector2Int(3, 0),
+						new Vector2Int(10, 0)
+					};
 					break;
 			}
 			Texture2D finalBloodTexture = CombineTextures(list, pixelCost, Art.pixel_blank);
