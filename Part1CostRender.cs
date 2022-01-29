@@ -262,6 +262,18 @@ namespace RenderFixMaybe
 					texBoneCcost = LoadTextureFromResource(Art.bone_cost_10);
 					list.Add(texBoneCcost);
 					break;
+				case 11:
+					texBoneCcost = LoadTextureFromResource(Art.bone_cost_11);
+					list.Add(texBoneCcost);
+					break;
+				case 12:
+					texBoneCcost = LoadTextureFromResource(Art.bone_cost_12);
+					list.Add(texBoneCcost);
+					break;
+				case 13:
+					texBoneCcost = LoadTextureFromResource(Art.bone_cost_13);
+					list.Add(texBoneCcost);
+					break;
 			}
 
 			switch (bloodCost)
@@ -304,6 +316,18 @@ namespace RenderFixMaybe
 					break;
 				case 10:
 					texBloodCost = LoadTextureFromResource(Art.blood_cost_10);
+					list.Add(texBloodCost);
+					break;
+				case 11:
+					texBloodCost = LoadTextureFromResource(Art.blood_cost_11);
+					list.Add(texBloodCost);
+					break;
+				case 12:
+					texBloodCost = LoadTextureFromResource(Art.blood_cost_12);
+					list.Add(texBloodCost);
+					break;
+				case 13:
+					texBloodCost = LoadTextureFromResource(Art.blood_cost_13);
 					list.Add(texBloodCost);
 					break;
 			}

@@ -93,6 +93,36 @@ namespace RenderFixMaybe.Resources {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] blood_cost_11 {
+            get {
+                object obj = ResourceManager.GetObject("blood_cost_11", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] blood_cost_12 {
+            get {
+                object obj = ResourceManager.GetObject("blood_cost_12", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] blood_cost_13 {
+            get {
+                object obj = ResourceManager.GetObject("blood_cost_13", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] blood_cost_2 {
             get {
                 object obj = ResourceManager.GetObject("blood_cost_2", resourceCulture);
@@ -196,6 +226,36 @@ namespace RenderFixMaybe.Resources {
         internal static byte[] bone_cost_10 {
             get {
                 object obj = ResourceManager.GetObject("bone_cost_10", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] bone_cost_11 {
+            get {
+                object obj = ResourceManager.GetObject("bone_cost_11", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] bone_cost_12 {
+            get {
+                object obj = ResourceManager.GetObject("bone_cost_12", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] bone_cost_13 {
+            get {
+                object obj = ResourceManager.GetObject("bone_cost_13", resourceCulture);
                 return ((byte[])(obj));
             }
         }
