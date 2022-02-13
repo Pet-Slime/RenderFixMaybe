@@ -368,7 +368,5 @@ namespace RenderFixMaybe
 
 			return finalSprite;
 		}
-
-
 	}
 }

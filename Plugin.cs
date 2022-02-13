@@ -47,41 +47,44 @@ namespace RenderFixMaybe
 			[HarmonyPrefix]
 			public static bool Prefix(ref Sprite __result, ref CardInfo card)
 			{
-				
-				//Make sure we are in Leshy's Cabin
-				bool flag1 = SceneLoader.ActiveSceneName == "Part1_Cabin" || SceneLoader.ActiveSceneName == "Part1_Sanctum";
-				if (flag1) 
-				{ 
-					/// Set the results as the new sprite
-					
-					__result = RenderFixMaybe.Part1CostRender.Part1SpriteFinal(card);
 
-					return false;
-				}
+				string flag = SceneLoader.ActiveSceneName;
 
-
-				bool flag2 = SceneLoader.ActiveSceneName.Equals("finale_grimora") || 
-					SceneLoader.ActiveSceneName.Equals("finale_magnificus") || 
-					SceneLoader.ActiveSceneName.Equals("finale_redacted") ||
-					SceneLoader.ActiveSceneName.Equals("Part3_Cabin");
-				if (flag2)
+				switch (flag)
                 {
-					return true;
+					///Leshy's Cabin main gameplay area
+					case "Part1_Cabin":
+						__result = RenderFixMaybe.Part1CostRender.Part1SpriteFinal(card);
+						return false;
+					///Leshy when making a death card
+					case "Part1_Sanctum":
+						__result = RenderFixMaybe.Part1CostRender.Part1SpriteFinal(card);
+						return false;
+					///Grimora in the final
+					case "finale_grimora":
+						return true;
+					///Magnificus in the final
+					case "finale_magnificus":
+						return true;
+					///I dont know what this scene is but I dont want to edit cards here
+					case "finale_redacted":
+						return true;
+					///All of P03's factory
+					case "Part3_Cabin":
+						return true;
+					///If it's none of the above areas, then it's somewhere in act 2
+					default:
+						if (configRightCorner.Value == true)
+						{
+							__result = RenderFixMaybe.Part2CostRender_Right.Part2SpriteFinal(card);
+						}
+						else
+						{
+							__result = RenderFixMaybe.Part2CostRender_Left.Part2SpriteFinal(card);
+						}
+						return false;
 				}
-
-
-				if (configRightCorner.Value == true)
-                {
-					__result = RenderFixMaybe.Part2CostRender_Right.Part2SpriteFinal(card);
-				} else
-				{
-					__result = RenderFixMaybe.Part2CostRender_Left.Part2SpriteFinal(card);
-				}
-				
-				return false;
 			}
         }
-
-		
 	}
 }

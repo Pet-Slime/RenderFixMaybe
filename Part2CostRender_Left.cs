@@ -72,8 +72,6 @@ namespace RenderFixMaybe
 			List<Texture2D> list = new List<Texture2D>();
 			Texture2D artCost = LoadTextureFromResource(resource);
 			list.Add(artCost);
-
-			var gemTotal = new List<Vector2Int>();
 			switch (cardCost)
 			{
 				case 1:
